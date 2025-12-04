@@ -14,7 +14,7 @@ const AdminList = () => {
     status: ""
   });
   const [isEditing, setIsEditing] = useState(false);
-  const API_URL = "http://localhost:8080/api/admins";
+  const API_URL = "https://admin-tvbh.onrender.com";
 
   useEffect(() => {
     fetchAdmins();
